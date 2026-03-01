@@ -1,0 +1,74 @@
+body{
+
+  background: linear-gradient(135deg,#1e3c72,#2a5298);
+  color:white;
+  font-family:Arial;
+
+}
+
+.container{
+
+  text-align:center;
+  margin-top:50px;
+
+}
+
+.board{
+
+  display:grid;
+  grid-template-columns:repeat(3,120px);
+  gap:10px;
+  justify-content:center;
+  margin:20px;
+
+}
+
+.cell{
+
+  width:120px;
+  height:120px;
+  background:white;
+  color:black;
+  font-size:50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  border-radius:10px;
+
+}
+
+.cell:hover{
+
+  background:#ddd;
+
+}
+
+button{
+
+  padding:10px 20px;
+  font-size:18px;
+  cursor:pointer;
+
+}
+
+.scoreboard{
+
+  font-size:24px;
+  display:flex;
+  justify-content:center;
+  gap:30px;
+
+}
+
+.winner{
+
+  color:lime;
+
+}
+
+.draw{
+
+  color:yellow;
+
+}
