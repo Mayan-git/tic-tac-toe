@@ -9,7 +9,7 @@ import {
   checkDraw
 } from "./ai";
 
-const socket = io("http://127.0.0.1:5000");
+const socket = io("https://tic-tac-toe-backend-jaep.onrender.com");
 
 function Board(){
 
